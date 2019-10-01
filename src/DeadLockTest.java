@@ -46,7 +46,7 @@ public class DeadLockTest {
             }
         });
 
-        //this results in a deadlock where both threads are waiting for each one to finish the task
+        //this results in a deadlock where /both threads are waiting for each one to finish the task
         t1.start();
         t2.start();
 
